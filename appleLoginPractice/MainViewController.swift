@@ -18,6 +18,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         detailLabel.text = user?.debugDescription ?? ""
+        print(user?.debugDescription)
      
     }
 
